@@ -165,8 +165,7 @@ img{
               Start header area
  ------------------------------------------*/
 .header_area {
-    background: rgba(0, 0, 0, 0) url("../images/dark-3.jpg") no-repeat scroll 0 0 / cover ;
-    /* background-position: center; */
+    background: rgba(0, 0, 0, 0) url("../images/dark.jpg") no-repeat scroll 0 0 / cover ;
     overflow: hidden;
     height: 100%;
 }
@@ -212,7 +211,7 @@ img{
 .text_animation > h4 {
     color: #fff;
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 5px;
     line-height: 25px;
     text-transform: uppercase;
@@ -220,7 +219,7 @@ img{
 .text_animation > h1 {
     color: #fff;
     font-size: 74px;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 90px;
     text-transform: capitalize;
 }
@@ -332,8 +331,7 @@ img{
     margin-top: 29px;
 }
 .leader_details > h2 {
-    width: 602px;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: 3px;
     line-height: 40px;
@@ -342,9 +340,9 @@ img{
     text-transform: capitalize;
 }
 .leader_details > p {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 36px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
 }
 
 .skill_view {
@@ -360,9 +358,9 @@ img{
     width: 100%;
 }
 .person_pictur > img{
-    /* height: auto; */
-    border-radius: 10px;
+    height: auto;
     float: right;
+    border-radius: 8px;
 }
 /*--------------------------------------------------
                 Start Service area
@@ -415,6 +413,16 @@ img{
     background: #f5f5f5;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.experience_area .resume{
+    height: auto;
+    text-align: center;
+}
+.experience_area .resume .send{
+    display: inline-block;
+}
+.experience_area .resume .send:first-child {
+    padding-right: 1%;
 }
 .resume_heading {
     margin-bottom: 20px;
@@ -587,7 +595,7 @@ ul.work_filter li {
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.hover_icon > a {
+.hover_icon > p {
     border: 1px solid #fff;
     color: white;
     display: block;
@@ -710,9 +718,6 @@ ul.work_filter li {
 /*-----------------------------------------------------------
                      Start contact area
 -------------------------------------------------------------*/
-.contact_area {
-    background: #f5f5f5 none repeat scroll 0 0;
-}
 .contact_area.clas100 {
     padding-bottom: 100px;
     padding-top: 88px;

@@ -23,7 +23,8 @@
         line-height: 60px;
     }
     .leader_details > h2 {
-        font-size: 31px;
+        font-size: 28px;
+        letter-spacing: 0px;
         line-height: 38px;
         margin-bottom: 18px;
     }
@@ -55,7 +56,8 @@
     }
     .leader_details > p {
         padding-bottom: 0;
-        line-height: 24px;
+        line-height: 30px;
+        font-size: 18px;
     }
     .service_icon > i {
         font-size: 30px;
@@ -107,7 +109,13 @@
     .comment_textarea {
          width: 100%;
     }
-
+    .person_pictur img {
+        margin-top: 20%
+    }
+    .leader_details h2 {
+        letter-spacing: 0px;
+        width: 430px;
+    }
 }
 
 /*
@@ -152,6 +160,7 @@
     }
     .contact_information{
         text-align: center;
+        display: none;
     }
     h1 {
 	   font-size: 40px;
@@ -165,6 +174,9 @@
     }
     .person_pictur{
         padding-top: 30px;
+    }
+    .person_pictur img {
+        float: none;
     }
     .service_area{
         padding-top: 50px;
@@ -227,15 +239,19 @@
     .my_resume_details > h3{
         font-size: 17px;
     }
+    .leader_info {
+        padding: 3%;
+    }
     .leader_details {
         margin-top: 70px;
     }
     .leader_details > h2 {
-        font-size: 14px;
+        font-size: 18px;
         margin-bottom: 12px;
+        letter-spacing: 0px;
     }
     .leader_details > p {
-        font-size: 14px;
+        font-size: 17px;
     }
     .navigation_area.sticky .mobile_menu {
         top: -51px;
@@ -323,7 +339,6 @@
         margin-bottom: 12px;
     }
     .leader_details > p {
-        font-size: 14px;
-        line-height: 24px;
+        line-height: 30px;
     }
 }
